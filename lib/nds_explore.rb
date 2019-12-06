@@ -25,8 +25,7 @@ end
 # end 
 
 def print_first_directors_movie_titles
-    binding.pry
-
+  
   
   spielbergs_movies = directors_database[0][:movies]
   i = 0 
