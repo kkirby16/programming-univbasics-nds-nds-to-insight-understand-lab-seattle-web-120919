@@ -7,6 +7,7 @@ require 'pry'
 
 def pretty_print_nds(nds)
 pp nds
+binding.pry
 end
 
 # # def print_first_directors_movie_titles
@@ -34,7 +35,7 @@ def print_first_directors_movie_titles #loops over spielbergs movies and prints 
   i += 1 
 end 
 end 
-binding.pry
+#binding.pry
   
   
 #   pp_variable = pretty_print_nds(nds)
