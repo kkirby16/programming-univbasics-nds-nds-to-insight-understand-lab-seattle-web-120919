@@ -25,13 +25,14 @@ end
 # end 
 
 def print_first_directors_movie_titles
+    binding.pry
+
   
   spielbergs_movies = directors_database[0][:movies]
   i = 0 
   while i < spielbergs_movies.count do 
   puts spielbergs_movies[i][:title]
   i += 1 
-  binding.pry
 end 
 end 
   
