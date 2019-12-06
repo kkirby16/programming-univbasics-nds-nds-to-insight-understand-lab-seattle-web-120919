@@ -33,6 +33,7 @@ def print_first_directors_movie_titles
   puts spielbergs_movies[i][:title]
   i += 1 
 end 
+binding.pry
 end 
   
   
