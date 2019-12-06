@@ -31,6 +31,7 @@ def print_first_directors_movie_titles
   while i < spielbergs_movies.count do 
   puts spielbergs_movies[i][:title]
   i += 1 
+  binding.pry
 end 
 end 
   
