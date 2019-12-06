@@ -24,7 +24,7 @@ end
 # # puts print_first_directors_movie_titles
 # end 
 
-def print_first_directors_movie_titles
+def print_first_directors_movie_titles #loops over spielbergs movies and prints their names with newlines 
   
   
   spielbergs_movies = directors_database[0][:movies]
